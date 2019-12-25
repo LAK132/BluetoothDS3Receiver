@@ -1,0 +1,27 @@
+{
+  "env": {
+      "IDF_PATH_LINUX": "~/esp/esp-idf"
+  },
+  "configurations": [
+      {
+          "name": "Linux",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "${IDF_PATH_LINUX}/components/**",
+              "${IDF_PATH_LINUX}/components/esp32/include/**"
+          ],
+          "forcedInclude": [
+              "build/include/sdkconfig.h"
+          ],
+          "defines": [
+              "ARDUINO=189",
+              "ESP32"
+          ],
+          "intelliSenseMode": "gcc-x64",
+          "compilerPath": "/usr/bin/gcc",
+          "cStandard": "c11",
+          "cppStandard": "c++17"
+      }
+  ],
+  "version": 4
+}
