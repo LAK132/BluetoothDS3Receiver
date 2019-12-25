@@ -1,0 +1,6 @@
+[submodule "ESP32/components/arduino"]
+	path = ESP32/components/arduino
+	url = https://github.com/LAK132/arduino-esp32.git
+[submodule "ESP32/components/ps3"]
+	path = ESP32/components/ps3
+	url = https://github.com/LAK132/esp32-ps3.git
