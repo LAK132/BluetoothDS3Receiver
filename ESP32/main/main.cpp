@@ -1,5 +1,4 @@
 #include <Arduino.h>
-#include "SPI.h"
 #include <stdio.h>
 
 extern "C" {
