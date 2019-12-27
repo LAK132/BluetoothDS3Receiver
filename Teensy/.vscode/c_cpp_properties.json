@@ -1,0 +1,27 @@
+{
+  "env": {
+      "ARDUINO_PATH_LINUX": "~/arduino-1.8.9"
+  },
+  "configurations": [
+      {
+          "name": "Linux",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "${ARDUINO_PATH_LINUX}/hardware/teensy/",
+              "${ARDUINO_PATH_LINUX}/hardware/teensy/avr/cores/teensy/**"
+          ],
+          "forcedInclude": [
+              "${ARDUINO_PATH_LINUX}/hardware/teensy/avr/cores/teensy/Arduino.h"
+          ],
+          "defines": [
+              "ARDUINO=189",
+              "__cplusplus"
+          ],
+          "intelliSenseMode": "gcc-x64",
+          "compilerPath": "/usr/bin/gcc",
+          "cStandard": "c11",
+          "cppStandard": "c++17"
+      }
+  ],
+  "version": 4
+}
